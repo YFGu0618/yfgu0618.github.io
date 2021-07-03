@@ -104,9 +104,11 @@ copyright = ""
     hint = 180
     warn = 360
 
-  [params.utterances]       # https://utteranc.es/
+  [params.utterances]
+    enable = true
     owner = "YFGu0618"
-    repo = "YFGu0618/yfgu0618.github.io"
+    repo = "yfgu0618.github.io"
+    issue-term="pathname"
 
   [params.flowchartDiagrams]
     enable = true
