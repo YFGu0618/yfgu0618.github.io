@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://yfgu0618.github.io/sitemap.xml

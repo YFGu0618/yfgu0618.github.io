@@ -1,0 +1,168 @@
+baseURL = "https://yfgu0618.github.io"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Yifan's Cove"
+preserveTaxonomyNames = true
+enableRobotsTXT = true
+enableEmoji = true
+theme = "even"
+# Use git commit log to generate lastmod record
+enableGitInfo = true
+# Syntax highlighting by Chroma. Don't enable `highlightInClient` and `chroma` at the same time!
+pygmentsOptions = "linenos=table"
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
+hasCJKLanguage = true
+paginate = 5
+disqusShortname = ""
+googleAnalytics = "UA-201238702-1"
+copyright = ""
+
+[author]
+  name = "Yifan Gu"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Archives"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
+
+[params]
+  version = "4.x"
+  debug = false
+  since = "2021"
+  gitRepo = "https://github.com/YFGu0618/yfgu0618.github.io.git"
+  logoTitle = "Yifan's Cove"
+  keywords = ["Hugo", "theme","even"]
+  description = ""
+  archivePaginate = 50
+  showArchiveCount = true
+  dateFormatToUse = "2006-01-02 15:04:05 MST"
+  moreMeta = true
+  highlightInClient = false
+  toc = true
+  autoCollapseToc = false
+  fancybox = true
+
+  postMetaInFooter = true
+  linkToMarkDown = false
+  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+
+  changyanAppid = ""
+  changyanAppkey = ""
+  livereUID = ""
+  baiduPush = false
+  baiduAnalytics = ""
+  baiduVerification = ""
+  googleVerification = ""
+
+  customCSS = []
+  customJS = []
+
+  uglyURLs = false
+  showLanguageSelector = false
+
+  mathjax = false
+  mathjaxEnableSingleDollar = false
+  mathjaxEnableAutoNumber = false
+  mathjaxUseLocalFiles = false
+
+  [params.publicCDN]
+    enable = true
+    jquery = '<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>'
+    slideout = '<script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>'
+    fancyboxJS = '<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>'
+    fancyboxCSS = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">'
+    timeagoJS = '<script src="https://cdn.jsdelivr.net/npm/timeago.js@4.0.2/dist/timeago.min.js" integrity="sha256-sTurDi2etLN9CpnUIoCC9y5iynb2qr/uo6QJqzoO7mA=" crossorigin="anonymous"></script>'
+    flowchartDiagramsJS = '<script src="https://cdn.jsdelivr.net/npm/raphael@2.3.0/raphael.min.js" integrity="sha256-TabprKdeNXbSesCWLMrcbWSDzUhpAdcNPe5Q53rn9Yg=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/flowchart.js@1.8.0/release/flowchart.min.js" integrity="sha256-zNGWjubXoY6rb5MnmpBNefO0RgoVYfle9p0tvOQM+6k=" crossorigin="anonymous"></script>'
+    sequenceDiagramsCSS = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@rokt33r/js-sequence-diagrams@2.0.6-2/dist/sequence-diagram-min.css" integrity="sha256-On01v36B8LRDuL2tqhqs7Gb3Cm/NIpsLFy4OarOodUA=" crossorigin="anonymous">'
+    sequenceDiagramsJS = '<script src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/snapsvg@0.5.1/dist/snap.svg-min.js" integrity="sha256-oI+elz+sIm+jpn8F/qEspKoKveTc5uKeFHNNVexe6d8=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.1/underscore-min.js" integrity="sha256-IY+xwfxy6a9rhm9DC+Kmf6N2OStNsvTb8ydyZxtq5Vw=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/@rokt33r/js-sequence-diagrams@2.0.6-2/dist/sequence-diagram-min.js" integrity="sha256-eadHf9g1REH9Wvp2FLV/D9vKNvQUFKuVPgWFvmMQxBE=" crossorigin="anonymous"></script>'
+
+  [params.outdatedInfoWarning]
+    enable = true
+    hint = 180
+    warn = 360
+
+  [params.utterances]       # https://utteranc.es/
+    owner = "YFGu0618"
+    repo = "YFGu0618/yfgu0618.github.io"
+
+  [params.flowchartDiagrams]
+    enable = true
+    options = ""
+
+  [params.sequenceDiagrams]
+    enable = true
+    options = ""
+
+  [params.reward]
+    enable = false
+    wechat = "/path/to/your/wechat-qr-code.png"
+    alipay = "/path/to/your/alipay-qr-code.png"
+
+  [params.social]
+    a-email = "mailto:yfgu0618@outlook.com"
+    b-stack-overflow = ""
+    c-twitter = ""
+    d-facebook = ""
+    e-linkedin = "https://www.linkedin.com/in/yfgu0618/"
+    f-google = ""
+    g-github = "https://github.com/YFGu0618"
+    h-weibo = ""
+    i-zhihu = ""
+    j-douban = ""
+    k-pocket = ""
+    l-tumblr = ""
+    m-instagram = ""
+    n-gitlab = ""
+    o-bilibili = ""
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+  [markup.goldmark.renderer]
+    unsafe = true
+
+# Uncomment these options to make hugo output .md files.
+#[mediaTypes]
+#  [mediaTypes."text/plain"]
+#    suffixes = ["md"]
+#
+#[outputFormats.MarkDown]
+#  mediaType = "text/plain"
+#  isPlainText = true
+#  isHTML = false
+#
+#[outputs]
+#  home = ["HTML", "RSS"]
+#  page = ["HTML", "MarkDown"]
+#  section = ["HTML", "RSS"]
+#  taxonomy = ["HTML", "RSS"]
+#  taxonomyTerm = ["HTML"]
