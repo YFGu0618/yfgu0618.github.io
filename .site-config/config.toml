@@ -65,7 +65,7 @@ copyright = ""
   autoCollapseToc = false
   fancybox = true
 
-  postMetaInFooter = true
+  postMetaInFooter = false
   linkToMarkDown = false
   contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
 
